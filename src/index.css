@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Patrick Hand SC', cursive;
+  background-color: #f1efee;
+}
+
+p {
+  font-size: 21px;
+  color: #392c21;
+}
+
+button, a {
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+@media screen and (max-width: 320px) {  
+  p {
+    font-size: 16px;
+  }
+}

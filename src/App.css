@@ -1,0 +1,110 @@
+.main-heading {
+  font-size: 55px;
+  text-align: center;
+  margin: 35px 0;
+  color: #7c3e1d;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100%;
+  width: 175px;
+  margin-bottom: 15px;
+  border: 7px solid #62a4ab;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.profile-btn {
+  margin-top: 15px;
+  background-color: #FFDA73;
+  padding: 7px 25px;
+  border: 2px solid #7c3e1d;
+  border-radius: 15px;
+  font-size: 16px;
+  color: #7c3e1d;
+  transition: 0.3s;
+}
+
+.profile-btn:hover {
+  background-color: #fff;
+  border: 2px solid #FFDA73;
+  color: #62a4ab;
+}
+
+.card {
+  padding: 25px 0;
+  border: 2px solid #392c21;
+  border-radius: 15px;
+  background-color: #fff;
+  width: 300px;
+  /* max-width: 23%; */
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 3px 3px 7px #999;
+  transform: scale(1.05);
+}
+
+.card-character {
+  padding: 25px 15px;
+  border: 2px solid #392c21;
+  border-radius: 15px;
+  background-color: #fff;
+  width: 370px;
+  margin-bottom: 15px;
+}
+
+.main-div {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex; 
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .card {
+    width: 300px;
+  }
+
+  .card-character {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-heading {
+    font-size: 40px;
+  }
+
+  .profile-btn {
+    padding: 4px 20px;
+    font-size: 13px;
+  }
+
+  .card {
+    width: 270px;
+  }
+
+  .card-character {
+    width: 270px;
+  }
+
+  .image {
+    width: 155px;
+  }
+}
+
